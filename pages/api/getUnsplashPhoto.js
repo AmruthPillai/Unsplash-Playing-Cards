@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 global.fetch = fetch;
 
 const unsplash = new Unsplash({
-  accessKey: "F2oB-a8D6Mx_Kn0NKuzucRMVCVGDQo4miw-W4kq1A-0",
+  accessKey: process.env.UNSPLASH_ACCESS_KEY,
 });
 
 export default async (_, res) => {
