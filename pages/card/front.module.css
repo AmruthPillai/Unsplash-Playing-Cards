@@ -8,6 +8,13 @@
 
 .container > div {
   padding: 1em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container > div > img {
+  height: 1.1em;
 }
 
 .container > img {

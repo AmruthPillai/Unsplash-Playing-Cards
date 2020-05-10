@@ -23,6 +23,8 @@ const CardFront = () => {
             <h1>K</h1>
             <img src={`/icons/${suit}.svg`} alt={suit} />
           </div>
+
+          <img src="/unsplash_logo.svg" alt="Unsplash Logo" />
         </div>
         <img src={`/icons/${suit}.svg`} alt={suit} />
         <div>
@@ -30,6 +32,8 @@ const CardFront = () => {
             <h1>K</h1>
             <img src={`/icons/${suit}.svg`} alt={suit} />
           </div>
+
+          <img src="/unsplash_logo.svg" alt="Unsplash Logo" />
         </div>
       </div>
     )
