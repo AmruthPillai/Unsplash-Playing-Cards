@@ -1,0 +1,14 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-reboot.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  width: 18em;
+  height: 25em;
+  border-radius: 5px;
+  box-shadow: 0 0 60px rgba(20, 20, 20, 0.2);
+}

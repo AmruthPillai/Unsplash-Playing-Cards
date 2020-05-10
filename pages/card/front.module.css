@@ -1,0 +1,37 @@
+.container {
+  color: #fff;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container > div {
+  padding: 1em;
+}
+
+.container > img {
+  align-self: center;
+  width: 4em;
+  height: 4em;
+}
+
+.container > div:last-child {
+  transform: scale(-1);
+}
+
+.face > h1 {
+  margin: 0;
+  line-height: 1em;
+  font-size: 2.5em;
+}
+
+.face > img {
+  margin-top: 8px;
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.red {
+  background-color: #b71c1c;
+}

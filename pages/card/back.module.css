@@ -1,0 +1,42 @@
+.container > img {
+  width: calc(18em - 2em);
+  height: calc(25em - 5em);
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.credit > img {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.credit > div {
+  margin-left: 8px;
+}
+
+.credit > div > h1 {
+  margin: 0;
+  line-height: 1.3em;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #444;
+}
+
+.credit > div > h2 {
+  margin: 0;
+  line-height: 1.3em;
+  font-size: 0.55em;
+  font-weight: 400;
+  color: #888;
+}
